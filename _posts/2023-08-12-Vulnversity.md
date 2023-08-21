@@ -80,7 +80,7 @@ gobuster dir -u http://[ip_address]:3333 -w /usr/share/Seclists/Discovery/Web-Co
 ![gobuste1](/assets/images/tryhackme/vulnversity/06 subdirectoryInternal.png)
 
 
-The internal directory seems interesting... Let's see what we it hides:
+The internal directory seems interesting... Let's see what it hides:
 
 
 ![internalPage](/assets/images/tryhackme/vulnversity/07 InternalPage.png)
@@ -333,7 +333,6 @@ PWNED! We can now retrieve the flag from the root's home directory:
 
 
 ![flag](/assets/images/tryhackme/vulnversity/17 Flag.png)
-
 
 
 
