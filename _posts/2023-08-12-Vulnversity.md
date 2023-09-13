@@ -2,6 +2,7 @@
 layout: single
 title: Vulnversity
 date: 2023-08-12 
+toc: true
 classes: wide
 excerpt: "Solving Vulnversity, the first room in the Offensive Pentesting learning path from TryHackMe"
 header:
@@ -333,7 +334,6 @@ PWNED! We can now retrieve the flag from the root's home directory:
 
 
 ![flag](/assets/images/tryhackme/vulnversity/17 Flag.png)
-
 
 
 
