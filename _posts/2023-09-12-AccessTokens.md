@@ -35,7 +35,7 @@ One useful command that can be used directly in the windows command line is  `wh
 When a local administrator logs in, the system generates two access tokens: one with administrative privileges and another with standard user rights. By default, when this user runs a process, the token with standard (non-administrator) rights is employed. However, if the user attempts to execute a task as an administrator (e.g., using "Run as Administrator"), the User Account Control (UAC) will prompt for permission. With UAC, each application that requires the administrator access token must prompt the end user for consent. The only exception is the relationship that exists between parent and child processes. Child processes inherit the user's access token from the parent process. Both the parent and child processes, however, must have the same integrity level. You have probably already interacted with windows UAC when trying to install a program, the prompt usually looks like this: 
 
 
-![UAC](/assets/images/articles/AccessTokens/UAC.png)
+![UAC](/assets/images/articles/AccessTokens/uac.png)
 
 
 # Types of Access Tokens

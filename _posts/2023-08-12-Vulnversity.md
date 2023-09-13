@@ -11,11 +11,8 @@ header:
 categories:
   - machines
 tags:
-  - tryhackme 
-  - LFI
-  - fileupload
-  - suid
-  - php
+  - tryhackme
+  - linux
 ---
 
 # Introduction
@@ -334,6 +331,4 @@ PWNED! We can now retrieve the flag from the root's home directory:
 
 
 ![flag](/assets/images/tryhackme/vulnversity/17 Flag.png)
-
-
 
